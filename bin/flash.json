@@ -1,0 +1,185 @@
+[
+    {
+        "name": "splloader",
+        "type": "flash",
+        "img": "splloader.bin"
+    },
+    {
+        "name": "vbmeta",
+        "type": "flash",
+        "img": "vbmeta.img"
+    },
+    {
+        "name": "vbmeta_bak",
+        "type": "flash",
+        "img": "vbmeta_bak.img"
+    },
+    {
+        "name": "prodnv",
+        "type": "flash",
+        "img": "prodnv.bin"
+    },
+    {
+        "name": "miscdata",
+        "type": "erase"
+    },
+    {
+        "name": "recovery",
+        "type": "flash",
+        "img": "recovery.img"
+    },
+    {
+        "name": "misc",
+        "type": "erase"
+    },
+    {
+        "name": "trustos",
+        "type": "flash",
+        "img": "trustos.bin"
+    },
+    {
+        "name": "trustos_bak",
+        "type": "flash",
+        "img": "trustos_bak.bin"
+    },
+    {
+        "name": "sml",
+        "type": "flash",
+        "img": "sml.bin"
+    },
+    {
+        "name": "sml_bak",
+        "type": "flash",
+        "img": "sml_bak.bin"
+    },
+    {
+        "name": "uboot",
+        "type": "flash",
+        "img": "uboot.bin"
+    },
+    {
+        "name": "uboot_bak",
+        "type": "flash",
+        "img": "uboot_bak.bin"
+    },
+    {
+        "name": "uboot_log",
+        "type": "erase"
+    },
+    {
+        "name": "logo",
+        "type": "flash",
+        "img": "logo.bmp"
+    },
+    {
+        "name": "logo_2",
+        "type": "erase"
+    },
+    {
+        "name": "logo_3",
+        "type": "erase"
+    },
+    {
+        "name": "logo_4",
+        "type": "erase"
+    },
+    {
+        "name": "logo_5",
+        "type": "erase"
+    },
+    {
+        "name": "logo_6",
+        "type": "erase"
+    },
+    {
+        "name": "trustos",
+        "type": "flash",
+        "img": "trustos.bin"
+    },
+    {
+        "name": "fbootlogo",
+        "type": "flash",
+        "img": "fbootlogo.bmp"
+    },
+    {
+        "name": "l_runtimenv1",
+        "type": "erase"
+    },
+    {
+        "name": "l_runtimenv2",
+        "type": "erase"
+    },
+        {
+        "name": "l_runtimenv2",
+        "type": "erase"
+    },
+    {
+        "name": "gpsgl",
+        "type": "flash",
+        "img": "gpsgl.bin"
+    },    {
+        "name": "gpsbd",
+        "type": "flash",
+        "img": "gpsbd.bin"
+    },    
+    {
+        "name": "wcnmodem",
+        "type": "flash",
+        "img": "wcnmodem.bin"
+    },
+    {
+        "name": "persist",
+        "type": "erase"
+    },
+    {
+        "name": "l_modem",
+        "type": "flash",
+        "img": "l_modem.bin"
+    },    
+    {
+        "name": "l_deltanv",
+        "type": "flash",
+        "img": "l_deltanv.bin"
+    },    
+    {
+        "name": "l_gdsp",
+        "type": "flash",
+        "img": "l_gdsp.bin"
+    },
+    {
+        "name": "l_ldsp",
+        "type": "flash",
+        "img": "l_ldsp.bin"
+    },       
+    {
+        "name": "pm_sys",
+        "type": "flash",
+        "img": "pm_sys.bin"
+    },
+    {
+        "name": "boot",
+        "type": "flash",
+        "img": "boot.img"
+    },
+    {
+        "name": "system",
+        "type": "flash",
+        "img": "system.img"
+    },
+    {
+        "name": "cache",
+        "type": "flash",
+        "img": "cache.img"
+    },
+    {
+        "name": "vendor",
+        "type": "flash",
+        "img": "vendor.img"
+    },
+    {
+        "name": "userdata",
+        "type": "flash",
+        "img": "userdata.img"
+    }
+]
+    

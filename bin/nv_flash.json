@@ -1,0 +1,12 @@
+[
+    {
+        "name": "l_fixnv1",
+        "type": "flash",
+        "img": "l_fixnv1-mode.bin"
+    },
+    {
+        "name": "l_fixnv2",
+        "type": "flash",
+        "img": "l_fixnv1-mode.bin"
+    },
+]
