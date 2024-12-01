@@ -72,8 +72,8 @@ sprd_imei.exe <选项> <fixnv文件路径> <15位8开头IMEI>
 选项:
 1.patch   修改fixnv文件的IMEI，必须传入IMEI
 2.read   读取fixnv文件的IMEI，无需传入IMEI
-示例:spd_dump.exe patch l_fixnv1.bin 88888888888888
-spd_dump.exe read l_fixnv1.bin
+示例:sprd_imei.exe patch l_fixnv1.bin 88888888888888
+sprd_imei.exe read l_fixnv1.bin
 ```
 flash.json格式
 ```
