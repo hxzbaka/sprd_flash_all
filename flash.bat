@@ -1,43 +1,43 @@
 @ECHO OFF
-if not exist "bin\config.bat" ECHO.ÅäÖÃ½Å±¾²»´æÔÚ£¬Çë¼ì²éÎÄ¼şÊÇ·ñÍêÕû£¡ && pause && exit
+if not exist "bin\config.bat" ECHO.é…ç½®è„šæœ¬ä¸å­˜åœ¨ï¼Œè¯·æ£€æŸ¥æ–‡ä»¶æ˜¯å¦å®Œæ•´ï¼ && pause && exit
 call bin\config.bat
 :checkfile
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-ECHO.ÕıÔÚĞ£ÑéÎÄ¼ş...
-if not exist "bin\chkfile.bat" ECHO.Ğ£Ñé½Å±¾²»´æÔÚ£¬Çë¼ì²éÎÄ¼şÊÇ·ñÍêÕû£¡ && pause && exit
+ECHO.æ­£åœ¨æ ¡éªŒæ–‡ä»¶...
+if not exist "bin\chkfile.bat" ECHO.æ ¡éªŒè„šæœ¬ä¸å­˜åœ¨ï¼Œè¯·æ£€æŸ¥æ–‡ä»¶æ˜¯å¦å®Œæ•´ï¼ && pause && exit
 call bin\chkfile.bat
 :menu
-title VP10È«Á¿°ü
+title VP10å…¨é‡åŒ…
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-ECHO.ÊÊÓÃÉè±¸:%device%
-ECHO.³§ÉÌ:%oem%
-ECHO.Ë¢»ú°ü°æ±¾:%version%
-ECHO.Ë¢»ú°üÆ½Ì¨:%package%
-ECHO.¿ò¼Ü×÷Õß:hxzbaka
-ECHO.¿ò¼Ü°æ±¾:%package_ver%
+ECHO.é€‚ç”¨è®¾å¤‡:%device%
+ECHO.å‚å•†:%oem%
+ECHO.åˆ·æœºåŒ…ç‰ˆæœ¬:%version%
+ECHO.åˆ·æœºåŒ…å¹³å°:%package%
+ECHO.æ¡†æ¶ä½œè€…:hxzbaka
+ECHO.æ¡†æ¶ç‰ˆæœ¬:%package_ver%
 ECHO.------------------------------------------------
-ECHO.¡¾1¡¿Ë¢Ğ´·ÖÇø(²»°üÀ¨»ù´ø)
-ECHO.¡¾2¡¿Ë¢Ğ´ËùÓĞ·ÖÇø(Î£ÏÕ)
-ECHO.¡¾3¡¿Ğ´IMEI
-ECHO.¡¾4¡¿¶ÁIMEI
-ECHO.¡¾0¡¿ÍË³ö
+ECHO.ã€1ã€‘åˆ·å†™åˆ†åŒº(ä¸åŒ…æ‹¬åŸºå¸¦)
+ECHO.ã€2ã€‘åˆ·å†™æ‰€æœ‰åˆ†åŒº(å±é™©)
+ECHO.ã€3ã€‘å†™IMEI
+ECHO.ã€4ã€‘è¯»IMEI
+ECHO.ã€0ã€‘é€€å‡º
 set ver=null
-set /p ver=ÇëÑ¡Ôñ:
+set /p ver=è¯·é€‰æ‹©:
 if %ver% == 1 goto flash
 if %ver% == 2 goto flash
 if %ver% == 3 goto flash1
@@ -47,23 +47,23 @@ goto :menu
 :flash
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-if %ver% == 1 ECHO.Ë¢Ğ´·ÖÇø(²»°üÀ¨»ù´ø) && title Ë¢Ğ´·ÖÇø(²»°üÀ¨»ù´ø)
-if %ver% == 2 ECHO.Ë¢Ğ´ËùÓĞ·ÖÇø(Î£ÏÕ) && title Ë¢Ğ´ËùÓĞ·ÖÇø(Î£ÏÕ)
+if %ver% == 1 ECHO.åˆ·å†™åˆ†åŒº(ä¸åŒ…æ‹¬åŸºå¸¦) && title åˆ·å†™åˆ†åŒº(ä¸åŒ…æ‹¬åŸºå¸¦)
+if %ver% == 2 ECHO.åˆ·å†™æ‰€æœ‰åˆ†åŒº(å±é™©) && title åˆ·å†™æ‰€æœ‰åˆ†åŒº(å±é™©)
 ECHO.------------------------------------------------
-ECHO.¡¾1¡¿ÖØĞÂ·ÖÇø(ÍêÈ«)
-ECHO.¡¾2¡¿²»ÖØĞÂ·ÖÇø
-ECHO.¡¾0¡¿ÉÏÒ»¼¶
+ECHO.ã€1ã€‘é‡æ–°åˆ†åŒº(å®Œå…¨)
+ECHO.ã€2ã€‘ä¸é‡æ–°åˆ†åŒº
+ECHO.ã€0ã€‘ä¸Šä¸€çº§
 ECHO.------------------------------------------------
-ECHO.Èç¹ûÄãÃ»ÓĞ¸Ä±ä¹ı·ÖÇøÃû³Æ/´óĞ¡£¬ÇëÑ¡Ôñ²»ÖØĞÂ·ÖÇø
+ECHO.å¦‚æœä½ æ²¡æœ‰æ”¹å˜è¿‡åˆ†åŒºåç§°/å¤§å°ï¼Œè¯·é€‰æ‹©ä¸é‡æ–°åˆ†åŒº
 set ver1=null
-set /p ver1=ÇëÑ¡Ôñ:
+set /p ver1=è¯·é€‰æ‹©:
 if %ver1% == 1 goto flash1
 if %ver1% == 2 goto flash1
 if %ver1% == 0 goto menu
@@ -72,27 +72,27 @@ goto flash
 :flash1
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-if "%ver1%" == 1 ECHO.ÖØĞÂ·ÖÇø
-if "%ver1%" == 2 ECHO.²»ÖØĞÂ·ÖÇø
+if "%ver1%" == 1 ECHO.é‡æ–°åˆ†åŒº
+if "%ver1%" == 2 ECHO.ä¸é‡æ–°åˆ†åŒº
 ECHO.------------------------------------------------
-ECHO.¡¾1¡¿Ö±½ÓÊ¹ÓÃBROMË¢Ğ´
-ECHO.¡¾2¡¿Ê¹ÓÃkickË¢Ğ´(²¿·ÖÉè±¸²»Ö§³Ö)
-ECHO.¡¾3¡¿Ê¹ÓÃkickto 2Ë¢Ğ´
-ECHO.¡¾0¡¿ÉÏÒ»¼¶
+ECHO.ã€1ã€‘ç›´æ¥ä½¿ç”¨BROMåˆ·å†™
+ECHO.ã€2ã€‘ä½¿ç”¨kickåˆ·å†™(éƒ¨åˆ†è®¾å¤‡ä¸æ”¯æŒ)
+ECHO.ã€3ã€‘ä½¿ç”¨kickto 2åˆ·å†™
+ECHO.ã€0ã€‘ä¸Šä¸€çº§
 ECHO.------------------------------------------------
-ECHO.Ê¹ÓÃBROMË¢Ğ´Çë½«Éè±¸½øÈëBROMÄ£Ê½
-ECHO.Ê¹ÓÃkickË¢Ğ´ÇëÈ·±£Ö§³ÖCALI(boot_diag-cali_diag-dl_diag)
-ECHO.Ê¹ÓÃkickto 2Ë¢Ğ´
-ECHO.ºóÁ½ÖÖ·½·¨ÔÚ¹Ø»ú×´Ì¬ÏÂÖ±½ÓÁ¬½ÓµçÄÔ¼´¿É£¬ÎŞ·¨¹Ø»ú³¤°´µçÔ´¼üÒ²¿ÉÒÔ
+ECHO.ä½¿ç”¨BROMåˆ·å†™è¯·å°†è®¾å¤‡è¿›å…¥BROMæ¨¡å¼
+ECHO.ä½¿ç”¨kickåˆ·å†™è¯·ç¡®ä¿æ”¯æŒCALI(boot_diag-cali_diag-dl_diag)
+ECHO.ä½¿ç”¨kickto 2åˆ·å†™
+ECHO.åä¸¤ç§æ–¹æ³•åœ¨å…³æœºçŠ¶æ€ä¸‹ç›´æ¥è¿æ¥ç”µè„‘å³å¯ï¼Œæ— æ³•å…³æœºé•¿æŒ‰ç”µæºé”®ä¹Ÿå¯ä»¥
 set ver2=null
-set /p ver2=ÇëÑ¡Ôñ:
+set /p ver2=è¯·é€‰æ‹©:
 if %ver2% == 1 if %ver% == 2 goto makeimei
 if %ver2% == 2 if %ver% == 2 goto makeimei
 if %ver2% == 3 if %ver% == 2 goto makeimei
@@ -110,14 +110,14 @@ goto flash1
 :flash2
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-ECHO.ÕıÔÚÉú³ÉË¢Ğ´½Å±¾...
+ECHO.æ­£åœ¨ç”Ÿæˆåˆ·å†™è„šæœ¬...
 for /f "delims=" %%i in ('bin\command.exe %cd%\%flash_src% %cd%\%image_src%') do set command=%%i
 if %ver2% == 1 set command1=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300
 if %ver2% == 2 set command1=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kick
@@ -127,41 +127,41 @@ if %ver% == 2 set command1=%command1% write_part l_fixnv1 %cd%\nv\l_fixnv1-imei-
 if %ver1% == 1 set repart=true && set command1=%command1% repartition bin\partitions.xml
 set command=%command1% %command%reset
 ECHO.%command%
-ECHO.°´»Ø³µ¿ªÊ¼Ë¢Ğ´
+ECHO.æŒ‰å›è½¦å¼€å§‹åˆ·å†™
 pause
 goto flash3
 :flash3
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-ECHO.¿ªÊ¼Ë¢Ğ´...
-if %ver2% == 1 ECHO.Çë½«Éè±¸½øÈëBROMÄ£Ê½²¢Á¬½ÓµçÄÔ
-if %ver2% == 2 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
-if %ver2% == 2 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
+ECHO.å¼€å§‹åˆ·å†™...
+if %ver2% == 1 ECHO.è¯·å°†è®¾å¤‡è¿›å…¥BROMæ¨¡å¼å¹¶è¿æ¥ç”µè„‘
+if %ver2% == 2 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
+if %ver2% == 3 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
 %command%
-ECHO.Ë¢Ğ´½Å±¾Ö´ĞĞÍê±Ï
+ECHO.åˆ·å†™è„šæœ¬æ‰§è¡Œå®Œæ¯•
 pause
 goto menu
 :makeimei
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-ECHO.¿ªÊ¼¶ÁÈ¡IMEI
-if %ver2% == 1 ECHO.Çë½«Éè±¸½øÈëBROMÄ£Ê½²¢Á¬½ÓµçÄÔ
-if %ver2% == 2 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
-if %ver2% == 3 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
+ECHO.å¼€å§‹è¯»å–IMEI
+if %ver2% == 1 ECHO.è¯·å°†è®¾å¤‡è¿›å…¥BROMæ¨¡å¼å¹¶è¿æ¥ç”µè„‘
+if %ver2% == 2 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
+if %ver2% == 3 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
 if %ver2% == 1 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300
 if %ver2% == 2 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kick
 if %ver2% == 3 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kickto 2
@@ -170,13 +170,13 @@ set command3=%command3% fdl %fdl1% %fdl1_addr% fdl %fdl2% %fdl2_addr% exec read_
 for /f "delims=" %%i in ('bin\sprd_imei.exe read %cd%\nv\nv1.bin') do set imei_command=%%i
 ECHO.IMEI:%imei_command:*IMEI:=%
 set imei=%imei_command:*IMEI:=%
-if %imei_command:*IMEI:=% == "" ECHO.ÎŞ·¨¶ÁÈ¡IMEI£¬ÇëÊÖ¶¯ÌîÈë! && set /p imei=ÇëÊäÈëÕıÈ·µÄIMEI(15Î»´¿Êı×Ö8¿ªÍ·):
-ECHO.¿ªÊ¼ĞŞ¸ÄIMEI
+if %imei_command:*IMEI:=% == "" ECHO.æ— æ³•è¯»å–IMEIï¼Œè¯·æ‰‹åŠ¨å¡«å…¥! && set /p imei=è¯·è¾“å…¥æ­£ç¡®çš„IMEI(15ä½çº¯æ•°å­—8å¼€å¤´):
+ECHO.å¼€å§‹ä¿®æ”¹IMEI
 bin\sprd_imei.exe patch %cd%\nv\l_fixnv1-imei.bin %imei%
-if not exist %cd%\nv\l_fixnv1-imei-mod.bin ECHO.nv1ĞŞ¸ÄÊ§°Ü! && pause && goto menu
+if not exist %cd%\nv\l_fixnv1-imei-mod.bin ECHO.nv1ä¿®æ”¹å¤±è´¥! && pause && goto menu
 bin\sprd_imei.exe patch %cd%\nv\l_fixnv2-imei.bin %imei%
-if not exist %cd%\nv\l_fixnv2-imei-mod.bin ECHO.nv2ĞŞ¸ÄÊ§°Ü! && pause && goto menu
-ECHO.ĞŞ¸Ä³É¹¦
+if not exist %cd%\nv\l_fixnv2-imei-mod.bin ECHO.nv2ä¿®æ”¹å¤±è´¥! && pause && goto menu
+ECHO.ä¿®æ”¹æˆåŠŸ
 del %cd%\nv\l_fixnv1-imei-mod.bin
 del %cd%\nv\l_fixnv2-imei-mod.bin
 pause
@@ -184,28 +184,28 @@ goto flash2
 :makeimei1
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-set /p imei=ÇëÊäÈëÕıÈ·µÄIMEI(15Î»´¿Êı×Ö8¿ªÍ·):
-ECHO.¿ªÊ¼ĞŞ¸ÄIMEI
+set /p imei=è¯·è¾“å…¥æ­£ç¡®çš„IMEI(15ä½çº¯æ•°å­—8å¼€å¤´):
+ECHO.å¼€å§‹ä¿®æ”¹IMEI
 bin\sprd_imei.exe patch %cd%\nv\l_fixnv1-imei.bin %imei%
-if not exist %cd%\nv\l_fixnv1-imei-mod.bin ECHO.nv1ĞŞ¸ÄÊ§°Ü! && pause && goto makeimei1
+if not exist %cd%\nv\l_fixnv1-imei-mod.bin ECHO.nv1ä¿®æ”¹å¤±è´¥! && pause && goto makeimei1
 bin\sprd_imei.exe patch %cd%\nv\l_fixnv2-imei.bin %imei%
-if not exist %cd%\nv\l_fixnv2-imei-mod.bin ECHO.nv2ĞŞ¸ÄÊ§°Ü! && pause && goto makeimei1
-if %ver2% == 1 ECHO.Çë½«Éè±¸½øÈëBROMÄ£Ê½²¢Á¬½ÓµçÄÔ
-if %ver2% == 2 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
-if %ver2% == 3 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
+if not exist %cd%\nv\l_fixnv2-imei-mod.bin ECHO.nv2ä¿®æ”¹å¤±è´¥! && pause && goto makeimei1
+if %ver2% == 1 ECHO.è¯·å°†è®¾å¤‡è¿›å…¥BROMæ¨¡å¼å¹¶è¿æ¥ç”µè„‘
+if %ver2% == 2 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
+if %ver2% == 3 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
 if %ver2% == 1 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300
 if %ver2% == 2 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kick
 if %ver2% == 3 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kickto 2
 set command3=%command3% fdl %fdl1% %fdl1_addr% fdl %fdl2% %fdl2_addr% exec write_part l_fixnv1 %cd%\nv\l_fixnv1-imei-mod.bin write_part l_fixnv2 %cd%\nv\l_fixnv2-imei-mod.bin reset
 %command3%
-ECHO.ĞŞ¸ÄÍê³É
+ECHO.ä¿®æ”¹å®Œæˆ
 del %cd%\nv\l_fixnv1-imei-mod.bin
 del %cd%\nv\l_fixnv2-imei-mod.bin
 pause
@@ -213,17 +213,17 @@ goto menu
 :read_imei
 cls
 ECHO.#############################
-ECHO.    ¨X¨T¨T¨[¨X¨[©¤©¤¨X¨T¨T¨[¨X¨T¨T¨[¨X¨[¨X¨[
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨U¨X¨T¨a¨U¨U¨U¨U
-ECHO.    ¨U¨^¨T¨[¨U¨U©¤©¤¨U¨^¨a¨U¨U¨^¨T¨[¨U¨^¨a¨U
-ECHO.    ¨U¨X¨T¨a¨U¨U©¤©¤¨U¨X¨[¨U¨^¨T¨[¨U¨U¨X¨[¨U
-ECHO.    ¨U¨U©¤©¤¨U¨^¨T¨[¨U¨U¨U¨U¨X¨T¨a¨U¨U¨U¨U¨U
-ECHO.    ¨^¨a©¤©¤¨^¨T¨T¨a¨^¨a¨^¨a¨^¨T¨T¨a¨^¨a¨^¨a
+ECHO.    â•”â•â•â•—â•”â•—â”€â”€â•”â•â•â•—â•”â•â•â•—â•”â•—â•”â•—
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘
+ECHO.    â•‘â•šâ•â•—â•‘â•‘â”€â”€â•‘â•šâ•â•‘â•‘â•šâ•â•—â•‘â•šâ•â•‘
+ECHO.    â•‘â•”â•â•â•‘â•‘â”€â”€â•‘â•”â•—â•‘â•šâ•â•—â•‘â•‘â•”â•—â•‘
+ECHO.    â•‘â•‘â”€â”€â•‘â•šâ•â•—â•‘â•‘â•‘â•‘â•”â•â•â•‘â•‘â•‘â•‘â•‘
+ECHO.    â•šâ•â”€â”€â•šâ•â•â•â•šâ•â•šâ•â•šâ•â•â•â•šâ•â•šâ•
 ECHO.#############################
-ECHO.¿ªÊ¼¶ÁÈ¡IMEI
-if %ver2% == 1 ECHO.Çë½«Éè±¸½øÈëBROMÄ£Ê½²¢Á¬½ÓµçÄÔ
-if %ver2% == 2 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
-if %ver2% == 3 ECHO.Çë½«Éè±¸¹Ø»ú²¢Á¬½ÓµçÄÔ£¬ÎŞ·¨¹Ø»úÏÈÁ¬µçÄÔÔÙ°´×¡µçÔ´¼ü
+ECHO.å¼€å§‹è¯»å–IMEI
+if %ver2% == 1 ECHO.è¯·å°†è®¾å¤‡è¿›å…¥BROMæ¨¡å¼å¹¶è¿æ¥ç”µè„‘
+if %ver2% == 2 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
+if %ver2% == 3 ECHO.è¯·å°†è®¾å¤‡å…³æœºå¹¶è¿æ¥ç”µè„‘ï¼Œæ— æ³•å…³æœºå…ˆè¿ç”µè„‘å†æŒ‰ä½ç”µæºé”®
 if %ver2% == 1 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300
 if %ver2% == 2 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kick
 if %ver2% == 3 set command3=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kickto 2
@@ -231,6 +231,6 @@ set command3=%command3% fdl %fdl1% %fdl1_addr% fdl %fdl2% %fdl2_addr% exec read_
 %command3%
 for /f "delims=" %%i in ('bin\sprd_imei.exe read %cd%\nv\nv1.bin') do set imei_command=%%i
 ECHO.IMEI:%imei_command:*IMEI:=%
-ECHO.¶ÁÈ¡³É¹¦
+ECHO.è¯»å–æˆåŠŸ
 pause
 goto menu
