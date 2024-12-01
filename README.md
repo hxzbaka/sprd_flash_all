@@ -66,9 +66,9 @@ command.exe用法
 command.exe <JSON格式刷写配置文件> <镜像路径>
 示例:command.exe flash.json images/
 ```
-command.exe用法
+sprd_imei.exe用法
 ```
-spd_dump.exe <选项> <fixnv文件路径> <15位8开头IMEI>
+sprd_imei.exe <选项> <fixnv文件路径> <15位8开头IMEI>
 选项:
 1.patch   修改fixnv文件的IMEI，必须传入IMEI
 2.read   读取fixnv文件的IMEI，无需传入IMEI
