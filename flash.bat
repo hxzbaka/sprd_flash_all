@@ -14,7 +14,7 @@ ECHO.正在校验文件...
 if not exist "bin\chkfile.bat" ECHO.校验脚本不存在，请检查文件是否完整！ && pause && exit
 call bin\chkfile.bat
 :menu
-title VP10全量包
+title %device%全量包
 cls
 ECHO.#############################
 ECHO.    ╔══╗╔╗──╔══╗╔══╗╔╗╔╗
@@ -105,6 +105,8 @@ if %ver2% == 3 if %ver% == 4 goto read_imei
 if %ver2% == 1 goto flash2
 if %ver2% == 2 goto flash2
 if %ver2% == 3 goto flash2
+if %ver% == 3 goto menu
+if %ver% == 4 goto menu
 if %ver2% == 0 goto flash
 goto flash1
 :flash2
@@ -173,6 +175,7 @@ set imei=%imei_command:*IMEI:=%
 if %imei_command:*IMEI:=% == "" ECHO.无法读取IMEI，请手动填入! && set /p imei=请输入正确的IMEI(15位纯数字8开头):
 ECHO.开始修改IMEI
 bin\sprd_imei.exe patch %cd%\nv\l_fixnv1-imei.bin %imei%
+ECHO.
 if not exist %cd%\nv\l_fixnv1-imei-mod.bin ECHO.nv1修改失败! && pause && goto menu
 bin\sprd_imei.exe patch %cd%\nv\l_fixnv2-imei.bin %imei%
 if not exist %cd%\nv\l_fixnv2-imei-mod.bin ECHO.nv2修改失败! && pause && goto menu
