@@ -124,7 +124,7 @@ for /f "delims=" %%i in ('bin\command.exe %cd%\%flash_src% %cd%\%image_src%') do
 if %ver2% == 1 set command1=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300
 if %ver2% == 2 set command1=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kick
 if %ver2% == 3 set command1=bin\spd_dump\%spd_dump_ver%\SPRD\spd_dump.exe --wait 300 --kickto 2
-set command1=%command1% fdl %fdl1% %fdl1_addr% fdl %fdl2% %fdl2_addr% exec timeout 5000
+set command1=%command1% fdl %fdl1% %fdl1_addr% fdl %fdl2% %fdl2_addr% exec timeout 5000 read_part l_fixnv1 0 1M backup\l_fixnv1.bin read_part l_fixnv2 0 1M backup\l_fixnv2.bin
 if %ver% == 2 set command1=%command1% write_part l_fixnv1 %cd%\nv\l_fixnv1-imei-mod.bin write_part l_fixnv2 %cd%\nv\l_fixnv2-imei-mod.bin 
 if %ver1% == 1 set repart=true && set command1=%command1% repartition bin\partitions.xml
 set command=%command1% %command%reset
