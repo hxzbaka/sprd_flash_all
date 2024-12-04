@@ -12,6 +12,7 @@ ECHO.    ╚╝──╚══╝╚╝╚╝╚══╝╚╝╚╝
 ECHO.#############################
 ECHO.正在校验文件...
 if not exist "bin\chkfile.bat" ECHO.校验脚本不存在，请检查文件是否完整！ && pause && exit
+if not exist "backup" mkdir backup
 call bin\chkfile.bat
 :menu
 title %device%全量包
